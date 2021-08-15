@@ -13,6 +13,7 @@ function getItems(){
                 price: doc.data().price
             })
         });
+        console.log('hello the world')
         generateItems(items)
     });
 }
